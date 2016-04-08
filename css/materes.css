@@ -1,0 +1,38 @@
+.caret {
+	//color: #fff !important;
+	z-index: 1;
+}
+
+.btn-flat, .btn {
+	color: #fff !important;
+	background-color: #537cfc !important;
+}
+
+.input-field input[type=text] {
+	color: #000;
+	font-family: 'Varela Round', sans-serif;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+	color: #537cfc;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+	border-bottom: 1px solid #537cfc;
+	box-shadow: 0 1px 0 0 #537cfc;
+}
+/* valid color */
+.input-field input[type=text].valid {
+	border-bottom: 1px solid #537cfc;
+	box-shadow: 0 1px 0 0 #537cfc;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+	border-bottom: 1px solid #FF6C5C;
+	box-shadow: 0 1px 0 0 #FF6C5C;
+}
+
+input:focus:not([type]):not([readonly]), input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #537cfc !important;
+	box-shadow: 0 1px 0 0 #537cfc !important;
+}
